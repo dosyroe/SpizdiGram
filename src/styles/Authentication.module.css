@@ -1,0 +1,104 @@
+.form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	height: 100vh;
+}
+
+.authorization {
+  background: var(--secondary-bg);
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 60px 50px;
+  border-radius: 25px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.h2 {
+  font-size: 28px;
+  color: var(--text-main);
+  margin-bottom: 20px;
+}
+
+.inputs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input {
+  height: 50px;
+  width: 100%;
+  background-color: #2e2249;
+  border-radius: 25px;
+  padding: 0 15px;
+  border: 1px solid transparent;
+  color: var(--text-main);
+  font-size: 16px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.input:focus {
+  border: 1px solid var(--primary);
+  box-shadow: 0 0 8px var(--primary);
+  outline: none;
+}
+
+.button {
+  height: 50px;
+  width: 60%;
+  background-color: var(--primary);
+  color: var(--text-main);
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.button:hover {
+  background-color: var(--primary-hover);
+  transform: scale(1.02);
+}
+
+.button:active {
+  transform: scale(0.98);
+}
+
+.additionallinks {
+  margin-top: 15px;
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.additionallinks a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.additionallinks a:hover {
+  color: var(--primary-hover);
+}
+
+.fadeIn {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInAnim 0.5s forwards;
+}
+
+@keyframes fadeInAnim {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
