@@ -4,7 +4,7 @@ React + TypeScript + Vite
 
 Unfinished project
 
-A self-written, crookedly working, but still working telegram
+A self-written, crookedly working, but still working telegram :3
 
 Login page:
 
