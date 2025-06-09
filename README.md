@@ -1,19 +1,38 @@
-# SpizdiGram
+<h2 align="center">
+  BRANDBRIDGE<br/>
+</h2>
+<div align="center">
+  <img src='https://github.com/user-attachments/assets/2d7ca3ef-83a9-4387-94b1-4658a8a57382' alt='missing' />
+</div>
 
-React + TypeScript + Vite
+## Description
 
-Unfinished project
 
-A self-written, crookedly working, but still working telegram :3
+One of the college projects.<br>
+It works crookedly, security is done through jwt tokens.<br>
+Doesn't work without backend.<br>
+Unfinished.
 
-Login page:
+## Built With
 
-![](https://github.com/user-attachments/assets/f2a726ea-00fa-42d9-8b6f-6f2f1dc961e6)
+This project was built using these technologies.
 
-Register page:
+- React.js
+- Vite.js
+- WebSocket
+- CSS3
+- VsCode
 
-![](https://github.com/user-attachments/assets/f504ed54-1546-4437-9765-a6f2c190ed60)
+## Getting Started
 
-Home page:
+Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
 
-![](https://github.com/user-attachments/assets/2d7ca3ef-83a9-4387-94b1-4658a8a57382)
+## 🛠 Installation and Setup Instructions
+
+1. Installation: `npm install`
+
+2. In the project directory, you can run: `npm run dev`
+
+
+Open [http://localhost:8081](http://localhost:8081) to view it in the browser.
+The page will reload if you make edits.
