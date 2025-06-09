@@ -1,5 +1,5 @@
 <h2 align="center">
-  BRANDBRIDGE<br/>
+  SpizdiGram<br/>
 </h2>
 <div align="center">
   <img src='https://github.com/user-attachments/assets/2d7ca3ef-83a9-4387-94b1-4658a8a57382' alt='missing' />
