@@ -19,6 +19,7 @@ This project was built using these technologies.
 
 - React.js
 - Vite.js
+- TypeScript
 - WebSocket
 - CSS3
 - VsCode
